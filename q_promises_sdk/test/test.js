@@ -16,7 +16,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 var host = testConfig.host;
 var masterKey = testConfig.masterKey;
 
-describe("NodeJS Client Q prmise Wrapper CRUD Tests", function(){
+describe("NodeJS Client Q promise Wrapper CRUD Tests", function(){
 
     // remove all databases from the endpoint before each test
     beforeEach(function(done) {
